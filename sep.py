@@ -16,10 +16,10 @@ for item in x:
 print (all_integers)
 print (all_strings)
 length=len(all_integers)
-for i in range(length):
-    for j in range(length-1):
-        if all_integers[j] > all_integers[j+1]:
-           all_integers[j],all_integers[j+1]=all_integers[j+1],all_integers[j]
+for k in range(length):
+    for l in range(length-1):
+        if all_integers[l] > all_integers[l+1]:
+           all_integers[l],all_integers[l+1]=all_integers[l+1],all_integers[l]
 print(all_integers)
 all_strings.sort()
 print(all_strings)
